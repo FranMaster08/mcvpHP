@@ -5,10 +5,8 @@ require_once './model/alumnos.php';
 require_once './model/alumnoDao.php';
 require_once './views/home.php';
  class Control{
-
-    public $mode;
     public function __construct(){
-        $this->mode = new Alumnos();
+   
     }
     public function index(){ 
         $conection=new Conexion();
