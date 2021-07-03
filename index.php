@@ -1,5 +1,6 @@
-<?php
-    require_once './controllers/controller.php';
-    $Controller=new Control();
-    $Controller->index()
+<?php 
+    include './controller/usercontroller.php';
+    $controller=new UserController();
+    $controller->RenderCrud();
+
 ?>
