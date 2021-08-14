@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./view/css/style.css">
+    <script src="./view/js/main.js"></script>
+</head>
+<body>
+  <header>
+      <section class="header-top"> 
+        <img class="logo" src="https://www.theblocklearning.com/wp-content/uploads/2018/09/logo_php.png" >
+        <div>
+            <input type="search" placeholder="Busca lo que necesitas">
+            <button>buscar</button>
+        </div>
+      </section>
+      <section class="header-button">
+        <ul>
+            <li><a href="#">logIn</a></li>
+            <li><a href="#">logOut</a></li>
+        </ul>
+      </section>
+  </header>
+  <main>
+      <section id="formulario-principal">
+          <article >
+              <form method="GET" action="./php/registro.php">
+                  <div>
+                    <label for="Nombre:">Nombres</label>
+                    <input name="Nombre" type="text" placeholder="Nombre Completo">
+                  </div>
+                  <div>
+                      <label for="Apellido">Apellidos</label>
+                      <input name="Apellido" type="text" placeholder="Apellido Completo">
+                  </div>
+                  <div>
+                    <label for="Apellido">Direccion</label>
+                    <input name="Direccion" type="text" placeholder="Direccion" />
+                  </div>
+                  <div>
+                      <input type="submit" value="Registrate">
+                  </div>
+
+              </form>
+          </article>
+      </section>
+      <section id="resultados">
+          <h1>Nombre de usuario</h1>
+          
+      </section>
+  </main>
+</body>
+</html>

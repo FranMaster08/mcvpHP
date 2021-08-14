@@ -1,6 +1,3 @@
-<?php 
-    include './controller/usercontroller.php';
-    $controller=new UserController();
-    $controller->RenderCrud();
-
+<?php  
+    echo  include ('./view/index.html');
 ?>

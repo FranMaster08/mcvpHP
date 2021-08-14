@@ -1,6 +1,0 @@
-<?php
-
-    $arrayuser = array();
-
-
-?>
